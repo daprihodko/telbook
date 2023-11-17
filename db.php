@@ -4,8 +4,8 @@ $dbname = 'api_db';
 if (isset($_SESSION['bd'])) {
     $dbname = $_SESSION['bd'];
 }
-$user = 'dimon';
-$pass = '1234567';
+$user = '';
+$pass = '';
 $charset = 'utf8';
 
 class DB
